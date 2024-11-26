@@ -164,7 +164,7 @@ if(isset($_POST['proses'])) {
       echo "<tr>
             <td>Gaji</td>
             <td>:</td>
-            <td>$gaji2</td>
+            <td>Rp." . number_format($gaji2, 0, ',', '.') . "</td>
             </tr>";
       echo "<tr>
             <td>Lama Kerja</td>
@@ -179,32 +179,32 @@ if(isset($_POST['proses'])) {
       echo "<tr>
             <td>Bonus</td>
             <td>:</td>
-            <td>$bonus2</td>
+           <td>Rp." . number_format($bonus2, 0, ',', '.') . "</td>
             </tr>";
       echo "<tr>
             <td>BPJS</td>
             <td>:</td>
-            <td>$bpjs2</td>
+            <td>Rp." . number_format($bpjs2, 0, ',', '.') . "</td>
             </tr>";
       echo "<tr>
             <td>Pinjaman</td>
             <td>:</td>
-            <td>$pinjaman2</td>
+            <td>Rp." . number_format($pinjaman2, 0, ',', '.') . "</td>
             </tr>";
       echo "<tr>
             <td>Cicilan</td>
             <td>:</td>
-            <td>$cicilan2</td>
+            <td>Rp." . number_format($cicilan2, 0, ',', '.') . "</td>
             </tr>";
       echo "<tr>
             <td>Infaq</td>
             <td>:</td>
-            <td>$lainnya2</td>
+           <td>Rp." . number_format($lainnya2, 0, ',', '.') . "</td>
             </tr>";
       echo "<tr>
             <td>Gaji Bersih</td>
             <td>:</td>
-            <td>$gaji_bersih2</td>
+           <td>Rp." . number_format($gaji_bersih2, 0, ',', '.') . "</td>
             </tr>";
       echo "</table>";
     }
